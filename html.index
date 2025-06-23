@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photography Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Jane Doe Photography</h1>
+    <nav>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Capturing Moments, Creating Memories</h2>
+    <p>Explore my collection of portraits, landscapes, and lifestyle photography.</p>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <div class="photo"><img src="photo1.jpg" alt="Sample Photo 1"></div>
+      <div class="photo"><img src="photo2.jpg" alt="Sample Photo 2"></div>
+      <div class="photo"><img src="photo3.jpg" alt="Sample Photo 3"></div>
+      <div class="photo"><img src="photo4.jpg" alt="Sample Photo 4"></div>
+      <!-- Add more photos as needed -->
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I’m Jane Doe, a passionate photographer based in Your City. I specialize in portraits, landscapes, and capturing life’s beautiful moments. Let’s work together!
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Jane Doe Photography. All rights reserved.
+  </footer>
+</body>
+</html>
