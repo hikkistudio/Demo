@@ -4,11 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Photography Portfolio</title>
+  <!-- Gen Z font vibes: Inter + cool emoji favicon -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="https://emojiapi.dev/api/v1/camera/64.png">
 </head>
 <body>
   <header>
-    <h1>Jane Doe Photography</h1>
+    <h1>📸 Jane Doe Photography</h1>
     <nav>
       <a href="#portfolio">Portfolio</a>
       <a href="#about">About</a>
@@ -43,20 +46,30 @@
     <h2>Contact</h2>
     <form>
       <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+      <div class="input-icon">
+        <span>👤</span>
+        <input type="text" id="name" name="name" required>
+      </div>
 
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+      <div class="input-icon">
+        <span>📧</span>
+        <input type="email" id="email" name="email" required>
+      </div>
 
       <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+      <div class="input-icon">
+        <span>💬</span>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
 
-      <button type="submit">Send</button>
+      <button type="submit">Send Message 🚀</button>
     </form>
   </section>
 
   <footer>
-    &copy; 2025 Jane Doe Photography. All rights reserved.
+    &copy; 2025 Jane Doe Photography. All rights reserved. <span style="font-size:1.2em;">✨</span>
   </footer>
 </body>
 </html>
+
